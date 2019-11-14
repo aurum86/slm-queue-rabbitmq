@@ -1,6 +1,8 @@
 SlmQueueRabbitMq
 ================
 
+[![Build Status](https://travis-ci.com/aurum86/slm-queue-rabbitmq.svg?branch=master)](https://travis-ci.com/aurum86/slm-queue-rabbitmq)
+
 Created by Cosoft RnD team
 
 Requirements

@@ -7,7 +7,7 @@ before_script:
  - composer self-update
  - composer install --prefer-source --no-interaction --dev
 
-script: phpunit --configuration tests\phpunit.xml --coverage-text
+script: ./bin/phpunit --configuration tests\phpunit.xml --coverage-text
 
 notifications:
    on_success: never
@@ -18,4 +18,3 @@ before-install:
 
 install:
  - composer install
-
